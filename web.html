@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="data:,">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>dcrat</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/134829260?v=4" />
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+        body {
+            line-height: 1.2;
+            margin: 0 auto;
+            max-width: 45rem;
+            padding: 15px;
+            font-size: 21px;
+            font-family: 'Lato', sans-serif;
+            color: rgb(245, 245, 245);
+            background: black;
+        }
+
+        a {
+            color: rgb(255, 0, 0);
+        }
+
+        .avatar {
+            border-radius: 50px;
+            border: solid rgb(0, 0, 0) 2px;
+
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+        }
+
+        .name {
+            padding: 7px;
+        }
+
+        body {
+            display: grid;
+            place-items: center;
+
+        }
+
+        .main__bg {
+            background-image: linear-gradient(-60deg, #000000 20%, #473e3e 100%);
+            animation: slide 3s ease-in-out infinite alternate;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: -50%;
+            right: -50%;
+            opacity: 0.5;
+            z-index: -1;
+        }
+
+        .layer1 {
+            animation-direction: alternate-reverse;
+            animation-duration: 4s;
+        }
+
+        .layer2 {
+            animation-duration: 5s;
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translateX(-25%);
+            }
+
+            100% {
+                transform: translateX(25%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main__bg"></div>
+    <div class="main__bg layer1"></div>
+    <div class="main__bg layer2"></div>
+    <div class="container">
+        <img src="https://avatars.githubusercontent.com/u/134829260?v=4" width="80px" height="80px" class="avatar">
+        <h3 class="name">Diptaprava Chakraborty</h3>
+    </div>
+    “A student who loves to code”<br>
+    I enjoy every subject.<br>
+    And love music a bit...<br><br>
+    Nothing more to write....💀🙃<br><br>
+
+
+    <a href="https://github.com/dcrat">github</a><br>
+    <br>
+</body>
+
+</html>
